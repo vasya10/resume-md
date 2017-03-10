@@ -1,0 +1,33 @@
+{
+  "name": "resume-md",
+  "version": "0.1.0",
+  "description": "A Resume generator using Resume JSON standard, ReactJS and Material UI",
+  "author": "Vasu Srinivasan",
+  "keywords": [ "resume-json", "ReactJS", "Google Material Design","material-ui" ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasya10/resume-md"
+  },
+  "main": "./src/index.js",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.7.1",
+    "lodash": "^4.17.4",
+    "material-ui": "0.17.0",
+    "moment": "^2.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "vis": "^4.18.1"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

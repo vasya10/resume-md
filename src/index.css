@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Ubuntu';
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Ubuntu', 'serif';
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  display: flex;
+  min-height: 100%;
+  margin: 0rem;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1rem;
+  letter-spacing: 1.5;
+  line-height: 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgrey;
+  width: 98%;
+  display: block;
+}
+
+i {
+  margin-right: 0.3rem;
+  color: #283593;
+}

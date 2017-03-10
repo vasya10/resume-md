@@ -1,0 +1,299 @@
+{
+  "basics": {
+    "name": "Vasu Srinivasan",
+    "socialName": "vasya10",
+    "label": "IT Professional",
+    "picture": "",
+    "email": "vasya10@gmail.com",
+    "phone": "512-785-9062",
+    "website": "http://www.vasya10.com",
+    "summary": "A summary of John Doe...",
+    "location": {
+      "address": "4016 Gloucester Drive",
+      "postalCode": "TX 78613",
+      "city": "Cedar Park",
+      "countryCode": "TX",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "twitter",
+        "username": "vasya10",
+        "url": "http://twitter.com/vasya10"
+      },
+      {
+        "network": "linkedin",
+        "username": "vasya10",
+        "url": "https://www.linkedin.com/in/vasudevan-srinivasan-b3bb381/"
+      },
+      {
+        "network": "github",
+        "username": "vasya10",
+        "url": "https://github.com/vasya10"
+      },
+      {
+        "network": "wordpress",
+        "username": "vasya10",
+        "url": "http://vasya10.wordpress.com"
+      }
+    ]
+  },
+  "aboutme": [
+    {
+      "title": "About me",
+      "subtitle": "in a few words...",
+      "icon": "fa fa-user",
+      "items": [
+        "20+ years of experience in the IT industry",
+        "Networking, Content Management Systems, Web Development, eGovernment, eCommerce, Finance",
+        "Resource Manager, Agile Team Lead, UI Architect, Open Source Developer",
+        "Brocade SDN Controller, OpenDaylight, Spectrometer"
+      ]
+    },
+    {
+      "title": "What motivates me",
+      "subtitle": "when I wake up everyday...",
+      "icon": "fa fa-smile-o",
+      "items": [
+        "Keeping pace with technology",
+        "Focus on customer problems and find solutions",
+        "Share what I have learnt",
+        "Multi-tasking",
+        "And then there is always more to learn"
+      ]
+    },
+    {
+      "title": "What I seek",
+      "subtitle": "in a future that is present...",
+      "icon": "fa fa-dot-circle-o",
+      "items": [
+        "a challenging role to apply my skills",
+        "a team with whom I can share what I have learnt",
+        "a role where I can learn from others",
+        "an environment where work is an experience to live for"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Brocade",
+      "position": "Manager / Senior Staff Software Engineer",
+      "website": "http://www.brocade.com",
+      "startDate": "2014-06-01",
+      "endDate": "",
+      "summary": "Multi-tasking Manager and Engineer, OpenSource evangelist, Agile team lead and UI Architect",
+      "highlights": [
+        "part of team that developed the Brocade SDN Controller, based on OpenDaylight SDN",
+        "lead a team of 6 and developed Brocade Topology Manager and Brocade Flow Manager apps for BSC",
+        "lead a team of 5 to develop Brocade L3 VPN Service Manager app for a large telco service provider",
+        "presided over 13 successful releases of BSC and Apps",
+        "created a new ReactJS based UI platform, demo-ed to the CEO and CTO, now adopted by many teams within Brocade",
+        "created a internal open source team for collaborating on the UI platform, working with 5 global teams",
+        "architected and developed the UI for OpenDaylight Spectrometer project using ReactJS"
+      ]
+    },
+    {
+      "company": "Texas NIC",
+      "position": "Senior Software Developer / SharePoint Architect",
+      "website": "http://www.egov.com",
+      "startDate": "2010-06",
+      "endDate": "2014-06",
+      "summary": "Senior J2EE and Web Developer, SharePoint Architect",
+      "highlights": [
+        "Manage SharePoint 2010 projects – Texas.gov (4 times in Top 10 of Best of Web award), TxNet, Partner Resource Portal",
+        "Research new avenues of cost-effective solutions by using Azure, MongoDB, Mobile Apps",
+        "Ideate, evaluate and implement new frameworks such as AngularJS, Grails; conduct workshops, brown-bag sessions, and hackathons with peers",
+        "Ideated a Multitenant Application Management Tool using Grails2, AngularJS and MongoDB stack that eliminated SDLC, so that product owners, business analysts and sales team could create and deploy tenant applications at runtime (a SaaS model)",
+        "Solve critical production issues, usually in high pressure situations for both Java and .Net; successfully troubleshooted several high-priority production issues on SharePoint 2010, under extreme pressures for other states like Oregon and Pennsylvania",
+        "Work on .Net, J2EE and JavaScript stack, often simultaneously and comfortable with all of them",
+        "Mentor and provide guidance to developers in creating, refactoring solutions"
+      ]
+    },
+    {
+      "company": "BearingPoint",
+      "position": "Senior Software Consultant",
+      "startDate": "2007-10",
+      "endDate": "2010-05",
+      "summary": "Senior J2EE and Web Developer",
+      "highlights": [
+        "Driver License Records and Renewal, Birth and Death records, Capital Access Pass, Concealed handgun license and 50+ original and renewal licensing applications",
+        "Many high-impact applications include Driver license renewal, Concealed handgun license renewal, Driver license reinstatement, Birth and Death verification and Board of nursing licenses",
+        "Many solutions use Oracle Fusion Middleware as their primary service backend to exchange data with other agencies",
+        "Data migration using Spring Batch/Grails GORM to migrate several million records - designed, developed and performance-turned within one week"
+      ]
+    },
+    {
+      "company": "Adea [IBM]",
+      "position": "Senior Software Developer",
+      "website": "http://www.ibm.com",
+      "startDate": "1999-09",
+      "endDate": "2004-09",
+      "summary": "Senior Software Consultant",
+      "highlights": [
+        "designed and developed PartnerCommerce/Servers eCommerce application (xSeries, zSeries) for top tier business partners",
+        "participated in the first IBM WebSphere implementation program",
+        "lead a truly global team and collaborated with customers spread across Americas, EMEA, ASEAN and India"
+      ]
+    },
+    {
+      "company": "IBM",
+      "position": "Senior Software Developer",
+      "website": "http://www.ibm.com",
+      "startDate": "2004-09",
+      "endDate": "2007-09",
+      "summary": "Senior Software Consultant",
+      "highlights": [
+        "designed and developed PartnerCommerce/Servers eCommerce application (xSeries, zSeries) for top tier business partners",
+        "participated in the first IBM WebSphere implementation program",
+        "lead a truly global team and collaborated with customers spread across Americas, EMEA, ASEAN and India"
+      ]
+    },
+    {
+      "company": "Adea [Texas OAG]",
+      "position": "Software Consultant",
+      "startDate": "2002-09",
+      "endDate": "2003-09",
+      "summary": "Software Developer",
+      "highlights": [
+        "TXCSES Revitalization project is part of a broad initiative by the Child Support Group of OAG to unify several distinct application islands into a single workflow system",
+        "Part of this initiative is the Child Support - Apply Online program which enabled citizens to create online applications for their child support",
+        "single-handedly developed the Child Support Apply Online web application, including a rules engine with complicated set of business rules",
+        "interface with mainframe databases IBM DB2 via IBM MQ Series and deployed on IBM WebSphere zSeries"
+      ]
+    },
+    {
+      "company": "NetRisk",
+      "position": "Software Developer",
+      "startDate": "1998-04",
+      "endDate": "1999-06",
+      "summary": "Java Developer",
+      "highlights": [
+        "Developed a Java Swing / Applet based web application to retrieve, analyze and display Risk Operations data",
+        "Risk Operations data and charts were used in predictive models for categorizing operational risks"
+      ]
+    },
+    {
+      "company": "IMR [Ford Motors]",
+      "position": "Software Developer",
+      "startDate": "1996-05",
+      "endDate": "1998-03",
+      "summary": "Visual Basic Developer",
+      "highlights": [
+        "GOLDD – Global Online Dealer Database was a world-wide initiative by Ford Motors Company for providing a comprehensive dealership database to the Ford customer service department. As a developer, demoed the product to clients at Detroit and later as a business analyst, documented second phase requirements at Cologne, Germany"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vladimir State Technical University",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "1990-09-01",
+      "endDate": "1995-07-01",
+      "gpa": "3.9",
+      "courses": []
+    }
+  ],
+  "globalEvents": [
+    { "name": "JDK", "date": "1996-01"},
+    { "name": "Google", "date": "1997-09"},
+    { "name": "DotCom Burst", "date": "2001-03"},
+    { "name": "Subprime Crisis", "date": "2008-07"},
+    { "name": "iPhone 2G", "date": "2007-06"},
+    { "name": "Google Suggest", "date": "2005-08"},
+    { "name": "OpenDaylight", "date": "2013-06"}
+  ],
+  "awards": [
+    {
+      "title": "Status Quo Breaker",
+      "date": "2016-06",
+      "awarder": "Brocade",
+      "summary": "Ideating and developing a ReactJS/NodeJS based UI Platform adopted by many Brocade teams; Created and leading an internal Open Source UI team to collaborate; Nominated thrice."
+    },
+    {
+      "title": "Achievement Award",
+      "date": "2013-08",
+      "awarder": "NIC",
+      "summary": "Successfully trouble-shooting and fine-tuning Pennsylvania and Oregon portals in SharePoint 2010 under high-pressure situation"
+    },
+    {
+      "title": "MCTS",
+      "date": "2011-10",
+      "awarder": "Microsoft",
+      "summary": "Microsoft Certified Technology Specialist"
+    },
+    {
+      "title": "Bravo Awards",
+      "date": "2004, 2005, 2006",
+      "awarder": "IBM",
+      "summary": "For outstanding work leading the team to deploy eCommerce application on IBM WebSphere"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Domains",
+      "level": "Good",
+      "keywords": [ "Networking", "Content Management Systems", "eGovernment", "eCommerce" ]
+    },
+    {
+      "name": "Management",
+      "level": "Good",
+      "keywords": [ "Resource Management", "Project Management", "Agile / Scrum / Kanban" ]
+    },
+    {
+      "name": "Networking",
+      "level": "Good",
+      "keywords": [ "SDN / NFV", "OpenFlow", "OpenDaylight", "Docker" ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [ "ReactJS", "AngularJS", "UI / UX", "Full Stack NodeJS", "SCSS", "D3 & Visualization" ]
+    },
+    {
+      "name": "Server Side Services",
+      "level": "Master",
+      "keywords": [ "Grails 3 / SpringBoot", "Groovy / Java", "Micro-services", "Oracle WebLogic", "SharePoint" ]
+    },
+    {
+      "name": "Deployment Pipeline",
+      "level": "Master",
+      "keywords": [ "Automation", "Nightwatch", "Artillery", "Robot Framework", "Selenium" ]
+    },
+    {
+      "name": "Databases",
+      "level": "Good",
+      "keywords": [ "MongoDB", "Oracle 12g" ]
+    }
+  ],
+  "languages": [
+    { "name": "English", "level": "Excellent" },
+    { "name": "Kannada", "level": "Native speaker" },
+    { "name": "Tamil", "level": "Native speaker" },
+    { "name": "Sanskrit", "level": "Excellent" },
+    { "name": "Russian", "level": "Good" },
+    { "name": "Hindi", "level": "Good" }
+  ],
+  "interests": [
+    {
+      "name": "Sanskrit",
+      "keywords": [ "Teaching Kids and Adults", "Reading old manuscripts", "Interpreting ancient wisdom for modern life" ]
+    }
+  ],
+  "training": [ "DockerCon (2017-04)",
+    "OpenStack (2016-04)",
+    "OpenDaylight Summits (since 2014)",
+    "Big Data Analytics (2014-03)",
+    "SEI Architect, Carnegie-Mellon University, PA, (2013-12)",
+    "ITIL v3 Certificate (2012-06)",
+    "Microsoft SharePoint 2010, (2009-10) ",
+    "Oracle eBusiness Suite, Oracle University, (2009-01)"
+  ],
+  "myweek": [
+    {"name": "coding", "percent": "20"},
+    {"name": "management", "percent": "30"},
+    {"name": "opensource", "percent": "25"},
+    {"name": "family", "percent": "20"},
+    {"name": "sanskrit", "percent": "10"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "fontFamily": "Ubuntu",
+  "appBar": {
+    "color": "#4527A0",
+    "height": 50
+  },
+  "avatar": {
+    "color": "#4527A0",
+    "backgroundColor": "#FFF"
+  },
+  "chip": {
+    "backgroundColor": "#EDE7F6"
+  }
+}
