@@ -10,7 +10,7 @@ import ProjectTimeline from './project-timeline';
 import Education from './education';
 import Training from './training';
 import Awards from './awards';
-import Skills from './skills';
+import SkillsAcquired from './skills-acquired';
 import MyWeek from './my-week';
 import Profile from './profile';
 
@@ -23,7 +23,7 @@ class App extends Component {
           <AboutMe />
           <ProjectTimeline />
           <Awards />
-          <Skills />
+          <SkillsAcquired />
           <MyWeek />
           <Training />
           <Education />

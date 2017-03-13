@@ -87,7 +87,7 @@
         "lead a team of 6 and developed Brocade Topology Manager and Brocade Flow Manager apps for BSC",
         "lead a team of 5 to develop Brocade L3 VPN Service Manager app for a large telco service provider",
         "presided over 13 successful releases of BSC and Apps",
-        "created a new ReactJS based UI platform, demo-ed to the CEO and CTO, now adopted by many teams within Brocade",
+        "created a new ReactJS based UI platform, demo-ed to the CEO and CTO, now adapted by many teams within Brocade",
         "created a internal open source team for collaborating on the UI platform, working with 5 global teams",
         "architected and developed the UI for OpenDaylight Spectrometer project using ReactJS"
       ]
@@ -229,36 +229,67 @@
       "summary": "For outstanding work leading the team to deploy eCommerce application on IBM WebSphere"
     }
   ],
+  "patents": [
+    {
+      "title": "Network Regression Analysis",
+      "date": "2016-06",
+      "awarder": "Brocade",
+      "summary": "Ideating and developing a ReactJS/NodeJS based UI Platform adopted by many Brocade teams; Created and leading an internal Open Source UI team to collaborate; Nominated thrice."
+    },
+    {
+      "title": "Achievement Award",
+      "date": "2013-08",
+      "awarder": "NIC",
+      "summary": "Successfully trouble-shooting and fine-tuning Pennsylvania and Oregon portals in SharePoint 2010 under high-pressure situation"
+    },
+    {
+      "title": "MCTS",
+      "date": "2011-10",
+      "awarder": "Microsoft",
+      "summary": "Microsoft Certified Technology Specialist"
+    },
+    {
+      "title": "Bravo Awards",
+      "date": "2004, 2005, 2006",
+      "awarder": "IBM",
+      "summary": "For outstanding work leading the team to deploy eCommerce application on IBM WebSphere"
+    }
+  ],
   "skills": [
     {
       "name": "Domains",
       "level": "Good",
-      "keywords": [ "Networking", "Content Management Systems", "eGovernment", "eCommerce" ]
+      "keywords": [ "Networking", "CMS", "eGovernment", "eCommerce" ]
     },
     {
       "name": "Management",
       "level": "Good",
-      "keywords": [ "Resource Management", "Project Management", "Agile / Scrum / Kanban" ]
+      "keywords": [ "People Management", "Project Management", "Agile" ]
     },
     {
       "name": "Networking",
       "level": "Good",
-      "keywords": [ "SDN / NFV", "OpenFlow", "OpenDaylight", "Docker" ]
+      "keywords": [ "SDN", "NFV", "OpenFlow", "OpenDaylight", "Docker" ]
     },
     {
-      "name": "Web Development",
+      "name": "Web",
       "level": "Master",
-      "keywords": [ "ReactJS", "AngularJS", "UI / UX", "Full Stack NodeJS", "SCSS", "D3 & Visualization" ]
+      "keywords": [ "ReactJS", "AngularJS", "UI / UX", "NodeJS", "SCSS", "D3 & Visualization" ]
     },
     {
-      "name": "Server Side Services",
+      "name": "Server Side",
       "level": "Master",
-      "keywords": [ "Grails 3 / SpringBoot", "Groovy / Java", "Micro-services", "Oracle WebLogic", "SharePoint" ]
+      "keywords": [ "Grails", "SpringBoot", "Groovy", "Java", "Micro-services" ]
+    },
+    {
+      "name": "App Servers",
+      "level": "Master",
+      "keywords": [ "Karaf", "SharePoint", "Oracle WebLogic", "IBM WebSphere" ]
     },
     {
       "name": "Deployment Pipeline",
       "level": "Master",
-      "keywords": [ "Automation", "Nightwatch", "Artillery", "Robot Framework", "Selenium" ]
+      "keywords": [ "Automation", "Nightwatch", "Robot Framework", "Selenium" ]
     },
     {
       "name": "Databases",

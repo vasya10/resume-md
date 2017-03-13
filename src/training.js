@@ -9,7 +9,7 @@ class Training extends Component {
     return (
       <section>
         <h2><i className="fa fa-leanpub"></i>Training and Conferences</h2>
-        <div className="training-items-container">
+        <div className="training-container">
           { _.map(R.training, x=> { return (<div className="training-item"key={x}>{x}</div> ) }) }
         </div>
       </section>

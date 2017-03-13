@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "description": "A Resume generator using Resume JSON standard, ReactJS and Material UI",
   "author": "Vasu Srinivasan",
-  "keywords": [ "resume-json", "ReactJS", "Google Material Design","material-ui" ],
+  "keywords": [
+    "resume-json",
+    "ReactJS",
+    "Google Material Design",
+    "material-ui"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
