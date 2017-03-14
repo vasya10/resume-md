@@ -85,16 +85,16 @@
       "highlights": [
         "part of Agile team that developed the Brocade SDN Controller (BSC), based on OpenDaylight SDN",
         "managed a team and provided mentorship, performance evaluations and career guidance",
-        "played a semi-product owner role to define initial product priorities for BSC Apps",
-        "lead an Agile (Scrum) team of 6 and developed Brocade Topology Manager and Brocade Flow Manager apps for BSC for service providers",
+        "played a semi product owner role to define initial product priorities for BSC Apps",
+        "lead an Agile (Scrum) team of 6 and developed Brocade Topology Manager and Brocade Flow Manager apps for service providers",
         "designed UI using D3 to display complex network topologies, manage OpenFlow and NETCONF devices, create cost based paths, MPLS and E-Line services",
-        "developed several PoCs integrating various products like StackStorm, Cloudify (for SD-WAN) and some hackathons that lead to patent filing",
-        "lead an Agile (Scrum) team of 5 to develop Brocade L3 VPN Service Manager app for a very large telco service provider",
+        "developed several PoCs integrating products like StackStorm, Cloudify, Google Map (for SD-WAN) and hackathons that lead to patent filing",
+        "lead an Agile (Scrum) team of 5 to design yang models, develop Brocade L3 VPN Service Manager app for a very large telco service provider",
         "presided over 13 successful releases of BSC and Apps in 24 months",
-        "created a new ReactJS based UI platform, demo-ed to the CEO and CTO, now adapted by many teams within the company",
+        "created a new ReactJS / NodeJS based UI platform, demo-ed to the CEO and CTO, now adapted by many teams within the company",
         "created an internal Open Source team for collaborating on the UI platform, working with 5 global teams, Agile (Kanban) style",
-        "architected and developed the UI for OpenDaylight Spectrometer using ReactJS and NodeJS",
         "as an automation adherent, inspired teams to achieve 95% automated tests using Jenkins, Spock, Mocha, Selenium, Robot and Nightwatch",
+        "as an OpenDaylight committer, architected and developed the UI for OpenDaylight Spectrometer using ReactJS and NodeJS",
         "organized the first ever OpenDaylight Meetup in Austin in 2014-Oct"
       ]
     },
@@ -125,9 +125,8 @@
       "endDate": "2010-05",
       "summary": "Senior J2EE and Web Developer",
       "highlights": [
-        "Driver License Records and Renewal, Birth and Death records, Capital Access Pass, Concealed handgun license and 50+ original and renewal licensing applications",
-        "many high-impact applications include Driver license renewal, Concealed handgun license renewal, Driver license reinstatement, Birth and Death verification and Board of nursing licenses",
-        "many solutions use Oracle Fusion Middleware (SOA Suite) as their primary service backend to exchange data with other agencies"
+        "Driver License Records and Renewal, Birth and Death records, Capital Access Pass, Concealed handgun license and 50+ original and renewal licensing applications in J2EE stack",
+        "implement Oracle Fusion Middleware (SOA Suite) based services for payment, backend processing and exchanging customer records with other agencies"
       ]
     },
     {
@@ -218,7 +217,7 @@
       "title": "Status Quo Breaker",
       "date": "2016-06",
       "awarder": "Brocade",
-      "summary": "Ideating and developing a ReactJS/NodeJS based UI Platform adopted by many Brocade teams; Created and leading an internal Open Source UI team to collaborate; Nominated thrice."
+      "summary": "Ideating and developing a ReactJS / NodeJS based UI Platform adopted by many Brocade teams; Created and leading an internal Open Source UI team to collaborate; Nominated thrice."
     },
     {
       "title": "Achievement Award",
@@ -267,17 +266,17 @@
     {
       "name": "Networking",
       "level": "Good",
-      "keywords": [ "SDN", "NFV", "OpenFlow", "OpenDaylight", "Docker" ]
+      "keywords": [ "SDN / NFV", "Yang", "OpenFlow", "OpenDaylight", "Docker" ]
     },
     {
       "name": "Web",
       "level": "Master",
-      "keywords": [ "ReactJS", "AngularJS", "UI / UX", "NodeJS", "SCSS", "D3 & Visualization" ]
+      "keywords": [ "ReactJS", "NodeJS", "AngularJS", "UI / UX", "SCSS", "D3 & Visualization" ]
     },
     {
       "name": "Server Side",
       "level": "Master",
-      "keywords": [ "Grails", "Spring Boot", "Groovy", "Java", "Micro-services" ]
+      "keywords": [ "Grails / Groovy", "Java / J2EE", "Spring Boot", "Micro-services" ]
     },
     {
       "name": "App Servers",
