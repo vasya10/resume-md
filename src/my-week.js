@@ -8,7 +8,7 @@ require('d3-scale')
 import R from '../data/resume.json'
 
 const width = 180;
-const height = 180;
+const height = 220;
 const radius = Math.min(width, height) / 2;
 const color = d3.scaleOrdinal(d3.schemeCategory20);
 const donutWidth = 30;
@@ -22,11 +22,10 @@ class MyWeek extends Component {
   createPieChart() {
     var svg = d3.select('#myweek-chart')
               .append('svg')
-              .attr('width', 360)
+              .attr('width', width*2)
               .attr('height', height)
               .append('g')
-              .attr('transform', 'translate(' + (width / 2) +
-                ',' + (height / 2) + ')');
+              .attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
 
     var arc = d3.arc()
       .innerRadius(radius - donutWidth)

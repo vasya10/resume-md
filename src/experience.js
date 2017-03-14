@@ -37,11 +37,11 @@ const options = {
     clickToUse: true
 };
 
-class ProjectTimeline extends Component {
+class Experience extends Component {
   state = { pIndex: 0 }
 
   componentDidMount() {
-    let timeline = new vis.Timeline(this.refs.projectTimeline, dataset, options);
+    let timeline = new vis.Timeline(this.refs.experience, dataset, options);
     timeline.on('select', (properties) => {
       this.setState({pIndex: properties.items[0]})
     })
@@ -50,13 +50,13 @@ class ProjectTimeline extends Component {
   render() {
     if (_.isEmpty(R.work)) return null;
 
-    const projectDescription = (pIndex) => {
+    const experiences = (pIndex) => {
       return (
-        <div className="project-item">
-          <div className="project-company">
+        <div className="experience-item">
+          <div className="experience-company">
             {R.work[pIndex].company}, {R.work[pIndex].position},
             {formatDate(R.work[pIndex].startDate)} to {formatDate(R.work[pIndex].endDate)}</div>
-          <div className="project-summary">{R.work[pIndex].summary}</div>
+          <div className="experience-summary">{R.work[pIndex].summary}</div>
           <ul className="inset">
             {_.map(R.work[pIndex].highlights, x=> { return (<li key={x}>{x}</li>) })}
           </ul>
@@ -67,14 +67,14 @@ class ProjectTimeline extends Component {
     return (
       <section>
         <h2><i className="fa fa-calendar"></i>Experience Timeline<i className="fa fa-question-circle" title="Click on the Project / Company to see the work experience details"></i></h2>
-        <div id="projectTimeline" ref="projectTimeline"></div>
-        <div className="project-container">
-          {projectDescription(0)}
-          {this.state.pIndex > 0  ? projectDescription(this.state.pIndex) : null}
+        <div id="experience" ref="experience"></div>
+        <div className="experience-container">
+          {experiences(0)}
+          {this.state.pIndex > 0  ? experiences(this.state.pIndex) : null}
         </div>
       </section>
     );
   }
 }
 
-export default ProjectTimeline;
+export default Experience;

@@ -7,7 +7,7 @@
     "email": "vasya10@gmail.com",
     "phone": "512-785-9062",
     "website": "http://www.vasya10.com",
-    "summary": "A summary of John Doe...",
+    "summary": "Multi-tasking manager and engineer",
     "location": {
       "address": "4016 Gloucester Drive",
       "postalCode": "TX 78613",
@@ -79,18 +79,21 @@
       "company": "Brocade",
       "position": "Manager / Senior Staff Software Engineer",
       "website": "http://www.brocade.com",
-      "startDate": "2014-06-01",
+      "startDate": "2014-06",
       "endDate": "",
       "summary": "Multi-tasking Manager and Engineer, OpenSource evangelist, Agile team lead and UI Architect",
       "highlights": [
-        "part of Agile team that developed the Brocade SDN Controller, based on OpenDaylight SDN",
-        "lead a team of 6 and developed Brocade Topology Manager and Brocade Flow Manager apps for BSC",
-        "lead a team of 5 to develop Brocade L3 VPN Service Manager app for a large telco service provider",
-        "manage a team of 4, provided mentorship, performance evaluations and career guidance",
+        "part of Agile team that developed the Brocade SDN Controller (BSC), based on OpenDaylight SDN",
+        "managed a team and provided mentorship, performance evaluations and career guidance",
+        "played a semi-product owner role to define initial product priorities for BSC Apps",
+        "lead an Agile (Scrum) team of 6 and developed Brocade Topology Manager and Brocade Flow Manager apps for BSC for service providers",
+        "designed UI using D3 to display complex network topologies, manage OpenFlow and NETCONF devices, create cost based paths, MPLS and E-Line services",
+        "developed several PoCs integrating various products like StackStorm, Cloudify (for SD-WAN) and some hackathons that lead to patent filing",
+        "lead an Agile (Scrum) team of 5 to develop Brocade L3 VPN Service Manager app for a very large telco service provider",
         "presided over 13 successful releases of BSC and Apps in 24 months",
-        "created a new ReactJS based UI platform, demo-ed to the CEO and CTO, now adapted by many teams within Brocade",
-        "created a internal open source team for collaborating on the UI platform, working with 5 global teams",
-        "architected and developed the UI for OpenDaylight Spectrometer project using ReactJS and NodeJS",
+        "created a new ReactJS based UI platform, demo-ed to the CEO and CTO, now adapted by many teams within the company",
+        "created an internal Open Source team for collaborating on the UI platform, working with 5 global teams, Agile (Kanban) style",
+        "architected and developed the UI for OpenDaylight Spectrometer using ReactJS and NodeJS",
         "as an automation adherent, inspired teams to achieve 95% automated tests using Jenkins, Spock, Mocha, Selenium, Robot and Nightwatch",
         "organized the first ever OpenDaylight Meetup in Austin in 2014-Oct"
       ]
@@ -103,16 +106,16 @@
       "endDate": "2014-06",
       "summary": "Senior J2EE and Web Developer, SharePoint Architect",
       "highlights": [
-        "manage SharePoint 2010 projects – Texas.gov (4 times in Top 10 of Best of Web award), TxNet (CMS), Partner Resource Portal",
+        "manage SharePoint 2010 projects – Texas.gov (4 times in Top 10 of Best of Web award), CMS like TxNet and Partner Resource Portal",
         "research new avenues of cost-effective solutions by using Azure, MongoDB, Mobile Apps",
         "ideate, evaluate and implement new frameworks such as AngularJS, Grails; conduct workshops, brown-bag sessions, and hackathons with peers",
         "ideated a SaaS Model Multitenant Application Management Tool using Grails, AngularJS and MongoDB stack that eliminated SDLC, so that product owners, business analysts and sales team could create and deploy tenant applications at runtime",
         "data migration using Spring Batch/Grails GORM to migrate several million records - designed, developed and performance-turned within one week",
-        "solve critical production issues, usually in high pressure situations for both Java and .Net",
         "successfully troubleshooted several high-priority production issues on SharePoint 2010, under extreme pressures for other states like Oregon and Pennsylvania",
-        "regular participant in Austin Groovy/Grails Meetups, presented a few Grails, SpringBoot, AngularJS talks",
+        "regular participant in Austin Groovy / Grails Meetups, presented a few Grails, SpringBoot, AngularJS talks",
         "regular participant in Austin SharePoint Meetups, presented lightning talks, volunteered for SharePoint Saturday in 2014-Mar",
-        "along with a colleague presented a talk on keeping pace with technology to eGovernment agencies, based on TechRadar model"
+        "presented a talk Battle of Programming Languages to eGovernment agencies on keeping pace with technology",
+        "create tools for Marketing team to collect feedback statistics for Texas.gov from social networks such as Facebook, Twitter, Flickr and Google Analytics"
       ]
     },
     {
@@ -149,7 +152,8 @@
       "summary": "Senior Software Consultant",
       "highlights": [
         "designed and developed PartnerCommerce/Servers eCommerce application (xSeries, zSeries) for top tier business partners",
-        "lead a truly global team and collaborated with customers spread across Americas, EMEA, ASEAN and India"
+        "lead a truly global team and collaborated with customers spread across Americas, EMEA, ASEAN and developers in India",
+        "over the years, lead a team to fully refactor and simplify the system using Spring stack and eliminating complex J2EE modules"
       ]
     },
     {
@@ -159,9 +163,9 @@
       "endDate": "2003-09",
       "summary": "Software Developer",
       "highlights": [
-        "TXCSES Revitalization project is part of a broad initiative by the Child Support Group of OAG to unify several distinct application islands into a single workflow system",
+        "TXCSES Revitalization project is part of a broad initiative by Texas OAG to unify several distinct application islands into an unified workflow system",
         "Part of this initiative is the Child Support - Apply Online program that enabled citizens to apply online for child support",
-        "single-handedly developed the Child Support Apply Online web application, including a rules engine with complicated set of business rules in Java",
+        "single-handedly developed the Child Support Apply Online web application in J2EE stack, including a rules engine with complicated set of business rules",
         "interface with mainframe databases IBM DB2 via IBM MQ Series and deployed on IBM WebSphere zSeries"
       ]
     },
@@ -172,8 +176,8 @@
       "endDate": "1999-06",
       "summary": "Java Developer",
       "highlights": [
-        "Developed a Java Swing / Applet based web application to retrieve, analyze and display Risk Operations data",
-        "Risk Operations data and charts were used in predictive models for categorizing operational risks"
+        "developed a Java Swing / Applet based web application to retrieve, analyze and display Risk Operations data",
+        "create charts using predictive models for categorizing Risk Operations data"
       ]
     },
     {
@@ -183,7 +187,9 @@
       "endDate": "1998-03",
       "summary": "Visual Basic Developer",
       "highlights": [
-        "GOLDD – Global Online Dealer Database was a world-wide initiative by Ford Motors Company for providing a comprehensive dealership database to the Ford customer service department. As a developer, demoed the product to clients at Detroit and later as a business analyst, documented second phase requirements at Cologne, Germany"
+        "GOLDD – Global Online Dealer Database was a world-wide initiative by Ford Motors Company for providing a comprehensive dealership database to the Ford customer service department",
+        "as a developer, demoed the product to clients at Detroit, MI",
+        "as a business analyst, documented second phase requirements at Cologne, Germany"
       ]
     }
   ],
@@ -192,8 +198,8 @@
       "institution": "Vladimir State Technical University",
       "area": "Computer Science",
       "studyType": "M.S.",
-      "startDate": "1990-09-01",
-      "endDate": "1995-07-01",
+      "startDate": "1990-09",
+      "endDate": "1995-07",
       "gpa": "3.9",
       "courses": []
     }
@@ -221,31 +227,37 @@
       "summary": "Successfully trouble-shooting and fine-tuning Pennsylvania and Oregon portals in SharePoint 2010 under high-pressure situation"
     },
     {
-      "title": "MCTS",
+      "title": "MCTS, SharePoint",
       "date": "2011-10",
       "awarder": "Microsoft",
       "summary": "Microsoft Certified Technology Specialist"
     },
     {
       "title": "Bravo Awards",
-      "date": "2004, 2005, 2006",
+      "date": "2004-06",
       "awarder": "IBM",
-      "summary": "For outstanding work leading the team to deploy eCommerce application on IBM WebSphere"
+      "summary": "Awarded thrice for outstanding work leading the team to deploy the PC/S eCommerce application on IBM WebSphere"
     }
   ],
   "patents": [
     {
-      "title": "Network Regression Analysis",
-      "date": "2016-06",
+      "title": "Flow-based Host Discovery in SDN Networks, Serial# 62/247,078, Status: Filed, Non-Provisional",
+      "date": "2015-10",
       "awarder": "Brocade",
-      "summary": "Ideating and developing a ReactJS/NodeJS based UI Platform adopted by many Brocade teams; Created and leading an internal Open Source UI team to collaborate; Nominated thrice."
+      "summary": "Proactively identify all of the hosts in an OpenFlow based SDN network by determining a forward path for the traffic flow using associated flow rules"
+    },
+    {
+      "title": "Network Regression Analysis, Application# 6865/CHE/2015, Status: Provisional",
+      "date": "2015-12",
+      "awarder": "Brocade",
+      "summary": "Rule based Proactive programming of flows by predicting the traffic pattern using regression analysis"
     }
   ],
   "skills": [
     {
       "name": "Domains",
       "level": "Good",
-      "keywords": [ "Networking", "CMS", "eGovernment", "eCommerce" ]
+      "keywords": [ "Network", "CMS", "eGovernment", "eCommerce" ]
     },
     {
       "name": "Management",
@@ -265,7 +277,7 @@
     {
       "name": "Server Side",
       "level": "Master",
-      "keywords": [ "Grails", "SpringBoot", "Groovy", "Java", "Micro-services" ]
+      "keywords": [ "Grails", "Spring Boot", "Groovy", "Java", "Micro-services" ]
     },
     {
       "name": "App Servers",
@@ -275,7 +287,7 @@
     {
       "name": "Deployment Pipeline",
       "level": "Master",
-      "keywords": [ "Automation", "Nightwatch", "Robot Framework", "Selenium" ]
+      "keywords": [ "Automation", "Nightwatch", "Robot", "Selenium" ]
     },
     {
       "name": "Databases",
@@ -284,9 +296,9 @@
     }
   ],
   "languages": [
-    { "name": "English", "level": 4 },
     { "name": "Kannada", "level": 5 },
     { "name": "Tamil", "level": 5 },
+    { "name": "English", "level": 4 },
     { "name": "Sanskrit", "level": 4 },
     { "name": "Russian", "level": 3 },
     { "name": "Hindi", "level": 3 }
@@ -294,23 +306,33 @@
   "interests": [
     {
       "name": "Sanskrit",
-      "keywords": [ "Teaching Kids and Adults", "Reading old manuscripts", "Interpreting ancient wisdom for modern life" ]
+      "keywords": [ "Teaching", "Reading old books", "Ancient wisdom" ]
+    },
+    {
+      "name": "Robotics",
+      "keywords": [ "Arduino", "Raspberry PI", "Drones" ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [ "Cycling", "Yoga" ]
     }
   ],
-  "training": [ "DockerCon (2017-04)",
-    "OpenStack (2016-04)",
-    "OpenDaylight Summits (since 2014)",
-    "Big Data Analytics (2014-03)",
-    "SEI Architect, Carnegie-Mellon University, PA, (2013-12)",
-    "ITIL v3 Certificate (2012-06)",
-    "Microsoft SharePoint 2010, (2009-10) ",
-    "Oracle eBusiness Suite, Oracle University, (2009-01)"
+  "training": [
+    { "name": "DockerCon", "company": "Brocade", "date": "2017-04", "venue": "Austin", "summary": ""},
+    { "name": "OpenStack", "company": "Brocade", "date": "2016-04", "venue": "Austin", "summary": ""},
+    { "name": "Open Networking Summit", "company": "Brocade", "date": "2015-06", "venue": "San Jose", "summary": ""},
+    { "name": "OpenDaylight Summits", "company": "Brocade", "date": "2014-2016", "venue": "San Jose, Seattle", "summary": ""},
+    { "name": "Big Data Analytics", "company": "NIC", "date": "2014-03", "venue": "Austin", "summary": ""},
+    { "name": "SEI Architect, Carnegie-Mellon University", "company": "NIC", "date": "2013-12", "venue": "Pittsburgh, PA", "summary": ""},
+    { "name": "ITIL v3 Certificate", "date": "2012-06", "company": "NIC", "venue": "Austin", "summary": ""},
+    { "name": "Microsoft SharePoint 2010", "date": "2009-10", "company": "NIC", "venue": "Dallas", "summary": ""},
+    { "name": "Oracle eBusiness Suite, Oracle University", "company": "BearingPoint", "date": "2009-01", "venue": "Los Angelos", "summary": ""}
   ],
   "myweek": [
-    {"name": "coding", "percent": "20"},
-    {"name": "management", "percent": "30"},
-    {"name": "opensource", "percent": "25"},
-    {"name": "family", "percent": "20"},
-    {"name": "sanskrit", "percent": "10"}
+    {"name": "coding", "percent": "30"},
+    {"name": "management", "percent": "40"},
+    {"name": "opensource", "percent": "15"},
+    {"name": "blogs", "percent": "10"},
+    {"name": "sanskrit", "percent": "5"}
   ]
 }

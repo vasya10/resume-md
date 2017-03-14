@@ -58,16 +58,7 @@ ul.inset > li {
   width: 32%;
 }
 
-.project-company {
-  font-size: 0.9rem;
-  color: rgba(69,39,160,0.8);
-}
-
-.project-summary {
-  color: gray;
-}
-
-.project-container {
+.experience-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -78,7 +69,16 @@ ul.inset > li {
   box-sizing: border-box;
 }
 
-.project-item {
+.experience-company {
+  font-size: 0.9rem;
+  color: rgba(69,39,160,0.8);
+}
+
+.experience-summary {
+  color: gray;
+}
+
+.experience-item {
   flex: 1 0 auto;
   width: 49%;
 }
@@ -148,8 +148,11 @@ ul.inset > li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  width: 40%;
+  width: 32%;
+}
+
+.charts-item {
+  flex: 1 0 auto;
 }
 
 .myweek-chart {
@@ -157,7 +160,12 @@ ul.inset > li {
 }
 
 .language-chart {
-  margin-left: 2rem;
+  margin-left: 0.8rem;
+}
+
+.interest-chart {
+  width: 500px;
+  height: 220px;
 }
 
 .legend {
