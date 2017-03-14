@@ -15,7 +15,13 @@ h2 {
 
 i {
   margin-right: 0.3rem;
-  color: indigo;
+  color: #4527A0;
+}
+
+i.fa-question-circle {
+  margin-left: 1.5rem;
+  color: black;
+  opacity: 0.4;
 }
 
 rect {
@@ -31,7 +37,6 @@ div.main {
 span.avatar {
   margin-left: 10px !important; /** adjust for font-awesome icons to be in center **/
   font-size: 1.6rem !important;
-  /*color: indigo !important;*/
 }
 
 ul.inset {
@@ -55,11 +60,11 @@ ul.inset > li {
 
 .project-company {
   font-size: 0.9rem;
-  color: #03A9F4;
+  color: rgba(69,39,160,0.8);
 }
 
 .project-summary {
-  color: #01579B;
+  color: gray;
 }
 
 .project-container {
@@ -83,6 +88,11 @@ ul.inset > li {
   border-color: orange;
 }
 
+.award-title {
+  color: rgba(69,39,160,0.8);
+  font-weight: 800;
+}
+
 .skills-container {
   display: flex;
   justify-content: flex-start;
@@ -90,21 +100,24 @@ ul.inset > li {
 }
 
 .skills-acquired-container {
+  width: 52%;
+}
+
+.skills-applied-container {
+  flex-wrap: wrap;
+  width: 49%;
 }
 
 .skills-acquired-content {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
   flex-direction: row;
   margin-bottom: 0.2rem;
 }
 
 .skill-acquired-header {
-  flex-shrink: 0;
   font-weight: 600;
-  width: 15%;
+  width: 20%;
 }
 
 .skill-acquired-items {
@@ -130,8 +143,25 @@ ul.inset > li {
   margin-top: 0.5rem;
 }
 
-.skills-applied-container {
-  flex-wrap: wrap;
+.charts-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.myweek-chart {
+  margin-left: 2rem;
+}
+
+.language-chart {
+  margin-left: 2rem;
+}
+
+.legend {
+  font-size: 12px;
 }
 
 .training-container {
@@ -152,21 +182,13 @@ ul.inset > li {
 }
 
 div.training-item:nth-child(even) {
-  color: darkgray;
+  color: gray;
 }
 
 .footer {
   border-top: solid 1px #ccc;
   padding: 1rem;
   background-color: #E8EAF6;
-}
-
-.myweek-container {
-
-}
-
-.legend {
-  font-size: 12px;
 }
 
 @keyframes App-logo-spin {

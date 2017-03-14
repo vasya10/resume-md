@@ -36,7 +36,7 @@ class MyWeek extends Component {
       .value(function(d) { return d.percent; })
       .sort(null);
 
-    var path = svg.selectAll('path')
+    var path = svg.selectAll('path') /* eslint no-unused-vars: 0 */
       .data(pie(dataset))
       .enter()
       .append('path')
@@ -45,7 +45,7 @@ class MyWeek extends Component {
         return color(d.data.name);
       });
 
-    var legend = svg.selectAll('.legend')
+    var legend = svg.selectAll('.legend') /* eslint no-unused-vars: 0 */
          .data(color.domain())
          .enter()
          .append('g')
@@ -76,10 +76,10 @@ class MyWeek extends Component {
 
   render() {
     return (
-      <Paper id="myweek" className="myweek-container">
-        <h2><i className="fa fa-circle-o-notch"></i>My week in a wheel</h2>
+      <Paper id="myweek">
+        <h2><i className="fa fa-circle-o-notch" style={{marginLeft: '0.5rem'}}></i>My week in a wheel</h2>
         <section>
-          <div id="myweek-chart">
+          <div id="myweek-chart" className="myweek-chart">
           </div>
         </section>
       </Paper>

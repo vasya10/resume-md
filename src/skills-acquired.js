@@ -22,7 +22,7 @@ class SkillsAcquired extends Component {
       <section>
         <div className="skills-container">
           <div className="skills-acquired-container">
-            <h2><i className="fa fa-tags"></i>Skills Acquired</h2>
+            <h2><i className="fa fa-tags"></i>Skills Acquired<i className="fa fa-question-circle" title="Click on a skill to see how the skill was applied in various projects"></i></h2>
             {
               _.map(R.skills, x => {
                 return (

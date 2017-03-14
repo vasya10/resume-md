@@ -66,7 +66,7 @@ class ProjectTimeline extends Component {
 
     return (
       <section>
-        <h2><i className="fa fa-calendar"></i>Project Timelines</h2>
+        <h2><i className="fa fa-calendar"></i>Experience Timeline<i className="fa fa-question-circle" title="Click on the Project / Company to see the work experience details"></i></h2>
         <div id="projectTimeline" ref="projectTimeline"></div>
         <div className="project-container">
           {projectDescription(0)}

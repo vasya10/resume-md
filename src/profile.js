@@ -18,7 +18,7 @@ class Profile extends Component {
           {
             _.map(R.basics.profiles, x => {
               return (
-                <a href={x.url} target="_blank">
+                <a key={x.network} href={x.url} target="_blank">
                   <Avatar style={{marginLeft: '1rem'}} icon={<FontIcon className={`avatar fa fa-${x.network}`} />} />
                 </a>
               )

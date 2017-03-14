@@ -12,6 +12,7 @@ import Training from './training';
 import Awards from './awards';
 import SkillsAcquired from './skills-acquired';
 import MyWeek from './my-week';
+import Languages from './languages';
 import Profile from './profile';
 
 class App extends Component {
@@ -24,7 +25,10 @@ class App extends Component {
           <ProjectTimeline />
           <Awards />
           <SkillsAcquired />
-          <MyWeek />
+          <div className="charts-container">
+            <MyWeek />
+            <Languages />
+          </div>
           <Training />
           <Education />
         </div>

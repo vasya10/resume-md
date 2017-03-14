@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 
-import Paper from 'material-ui/Paper';
+import {formatDate} from './utils'
 
 import R from '../data/resume.json';
 
@@ -12,23 +12,18 @@ class Awards extends Component {
     return (
       <section>
         <h2><i className="fa fa-trophy"></i>Awards and Patents</h2>
-        {
-          _.map(R.awards, x => {
-            return (<Paper style={{height: 100, width: 100, textAlign: 'center', display: 'inline-block'}} key={x.title} rounded={true}>{x.title}</Paper>)
-          })
-        }
-        {/* <ul>
+        <ul>
           {
             _.map(R.awards, x => {
-              return (<li key={x.title}><strong>{x.title}</strong> ({x.awarder}, {x.date}): {x.summary}</li>)
+              return (<li key={x.title}><span className="award-title">{x.title}</span> ({x.awarder}, {formatDate(x.date)}): {x.summary}</li>)
             })
           }
           {
             _.map(R.patents, x => {
-              return (<li key={x.title}><strong>{x.title}</strong> ({x.company}, {x.date}): {x.summary}</li>)
+              return (<li key={x.title}><span className="award-title">{x.title}</span> ({x.awarder}, {formatDate(x.date)}): {x.summary}</li>)
             })
           }
-        </ul> */}
+        </ul>
       </section>
     );
   }
