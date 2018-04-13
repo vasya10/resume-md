@@ -1,6 +1,6 @@
 {
   "name": "resume-md",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Resume generator using Resume JSON standard, ReactJS and Material UI",
   "author": "Vasu Srinivasan",
   "keywords": [
@@ -17,6 +17,7 @@
   "main": "./src/index.js",
   "dependencies": {
     "d3": "^4.7.1",
+    "jspdf": "^1.3.3",
     "lodash": "^4.17.4",
     "material-ui": "0.17.0",
     "moment": "^2.17.1",

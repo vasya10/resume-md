@@ -83,6 +83,12 @@ ul.inset > li {
   width: 49%;
 }
 
+.experience-item ul > li > a {
+  color: darkblue;
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+}
+
 .vis-item.orange {
   background-color: gold;
   border-color: orange;

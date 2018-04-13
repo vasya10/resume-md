@@ -14,7 +14,7 @@ import { formatDate } from './utils'
 
 const workHistory = _.map(R.work, (x, index) => {
   return {
-    id: index, content: x.company, start: x.startDate, end: (x.endDate || Date.now())
+    id: index, content: x.company, start: x.startDate, end: (x.endDate || mo().format("YYYY-MM"))
   }
 })
 
@@ -31,11 +31,15 @@ const startYear = mo(_.minBy(workHistory, "start").start).year()
 const options = {
     height: '275px',
     min: new Date(startYear, 1, 1),
-    max: new Date(mo().year(), 12, 31),
+    max: new Date(mo().year(), 11, 31),
     zoomMin: 1000 * 60 * 60 * 24 * 31 * 6,
-    zoomMax: 1000 * 60 * 60 * 24 * 31 * 12 * 20,
+    zoomMax: 1000 * 60 * 60 * 24 * 31 * 12 * 100,
     clickToUse: true
 };
+
+const item = x => {
+  return { __html: x }
+}
 
 class Experience extends Component {
   state = { pIndex: 0 }
@@ -58,7 +62,7 @@ class Experience extends Component {
             {formatDate(R.work[pIndex].startDate)} to {formatDate(R.work[pIndex].endDate)}</div>
           <div className="experience-summary">{R.work[pIndex].summary}</div>
           <ul className="inset">
-            {_.map(R.work[pIndex].highlights, x=> { return (<li key={x}>{x}</li>) })}
+            {_.map(R.work[pIndex].highlights, (x) => { return (<li key={x} dangerouslySetInnerHTML={item(x)}></li>) })}
           </ul>
         </div>
       )

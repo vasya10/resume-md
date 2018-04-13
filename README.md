@@ -8,14 +8,20 @@ This project is bootstrapped with [Create React App](https://github.com/facebook
 - [D3 v4](http://d3js.org)
 - [Vis JS](http://visjs.org)
 
+## Motivation
+
+Having interviewed over 100s of candidates during my career, I feel the resume format has hardly changed over the years. Its the typical reverse chronological items of what your role is and chosen technology stack is. Many candidates do not even pass the four minimum resume qualifications: **Clarity, Presentation, Format, Spellcheck**. Even with portals like LinkedIn, Github providing a lot of information about the candidate, a resume is still considered *the personal window* to a candidate's career. I wish I could say look up me on Twitter, Github and LinkedIn, but that's not sufficient, because the resume allows me to present myself the way I want. At the same time, static resumes are less appealing, especially for experienced professionals, because it cannot do justice to their accumulated experience. So this is just a simple attempt to make your resumes more interactive closely following industry standards.
+
 
 ## Getting Started
 
-### Required Tools
+### Tools
 
--  NodeJS 6.x, create-react-app, yarn and obviously Git
+-  NodeJS 8.x, create-react-app, yarn, NVM (recommended), Docker (optional)
 
 ### Installation
+
+#### Manual
 
 If you have not installed NodeJS, I recommend installing it via [NVM](https://github.com/creationix/nvm). NVM lets you easily install and switch between NodeJS versions. If you have an old version of NodeJS installed (0.12, 4.x etc.) I recommend uninstalling them completely and then install NVM.
 
@@ -25,16 +31,27 @@ brew install yarn
 git clone https://github.com/vasya10/resume-md
 cd resume-md
 yarn install
-npm start
+yarn start
 ```
 
 This will open your default browser and will display a standard resume at http://localhost:3000
 
-Once you ensure it works fine, stop it.
+#### Dockerfile
+
+If you do not want to install NodeJS tools locally, you can run the app via Docker. This is a much simpler option.
+
+Download and install Docker CE
+Run the make targets to build and run. If you dont have make, simply run the shell scripts in the target.
+
+```sh
+# will create a docker image and run it at port 3000
+make build
+make run
+```
 
 ### Updating the resume
 
-Edit the `./data/resume.json` file and add your own content. Run `npm start` to see your resume. Create React App compiles on the fly, so any changes are immediately picked up and rendered.
+Edit the `./data/resume.json` file and add your own content. Run `yarn start` to see your resume. Create React App compiles on the fly, so any changes are immediately picked up and rendered.
 
 ### Themes
 
@@ -72,9 +89,9 @@ The generator provides a few of interactive features. The interactive features a
 
 | Problem | Problem Reason | Solution |
 |---------|----------------|----------|
-| Too long | I have seen resumes that run 10 pages long and it is really hard to figure what the candidate is looking for | The generator displays only the most relevant information, while allowing interviewer to on-demand access further details |
-| Only latest experience matters |  It is a generally accepted rule while interviewing, that your current/last project is the most relevant experience. People tend to forget the job experiences from previous work, but it is the experience that is accumulated over years that makes a professional. Cases where candidates are hired based on knowledge from say, 10 years ago are rare. | In the project timeline, only the latest experience is shown. But you can click on previous projects, which displays that work experience side by side with your current project. So in effect a past experience is displayed in relation to the current experience. |
-| Skills Applied over the years | This is almost never evident in resumes. A candidate may have worked on Python in 2/3 projects, but how did that experience evolve? | The generator displays the skills as a series of chips. If you click on a chip, the text is searched across the Work experience (hightlights and summary), Awards and Patents and displayed on the right. So the interviewer can quickly look at how a certain skill was accumulated or applied over the years. This also enables the candidate to develop the resume in a certain way, so its information can be relationally gathered |
+| Too long | I have seen resumes that run 10 pages long and it is really hard to figure what the candidate is looking for | See the experience as a timeline, rather than a list of events. The generator displays only the most relevant information, while allowing interviewer to on-demand access further details |
+| Only latest experience matters |  It is a generally accepted rule while interviewing, that your current/last project is the most relevant experience. People tend to forget the job experiences from previous works, but it is the experience that is accumulated over years that makes a professional. Cases where candidates are hired based on knowledge from say, 10 years ago are rare. | In the project timeline, only the latest experience is shown. But you can click on previous projects, which displays that work experience side by side with your current project. So in effect a past experience is displayed in relation to the current experience, yet conserves space. |
+| Skills Applied over the years | This is almost never evident in resumes. A candidate may have worked on Python in 2/3 projects, but how did that experience evolve? | The generator displays the skills as a series of chips. If you click on a chip, the text is searched across the Work experience (hightlights and summary), Awards and Patents and displayed on the right. So the interviewer can quickly look at how a certain skill was accumulated or applied over the years. This also enables the candidate to develop the resume in a certain way, so its information can be relationally gathered. |
 
 
 ## Custom JSON extensions
@@ -90,13 +107,9 @@ The project also adds a few custom sections not found in the original JSON Schem
 | my week | Gives a perspective of how you time manage using a Donut chart |
 
 
-## Motivation
-
-Having interviewed over 100s of candidates during my career, I feel the resume format has hardly changed over the years. Many candidates do not even pass the minimum resume qualification: Clarity, Presentation, Format, Spellcheck. Even with most of information available over portals like LinkedIn (for eg endorsements), a resume is still considered _the personal window_ to a candidate's career. I wish I could say look up me on Twitter, Github and LinkedIn, but no, because the resume allows me to present myself the way I want. Static resumes are less appealing, especially for experienced professionals, because it cannot do justice to the experience. So this is just a simple attempt to make your resumes more interactive.
-
 ## Deploy
 
-Once your satisfied with the generated resume, you can deploy it to any NodeJS hosted (or self host) environment. 
+Once your satisfied with the generated resume, you can deploy it to any NodeJS hosted (or self host) environment.
 
 Below are instructions for setting this up in Heroku.
 
@@ -119,6 +132,6 @@ To check app deployment and runtime logs:
 
 10. `heroku logs --tail`
 
-## TODO
+## Export
 
-- Export as PDF
+To export as PDF, from your browser menu, save the HTML as PDF. Most of the time it would generate a properly formatted pdf. But some formatting has been found to be inconsistent. You may have to adjust the styles to get a PDF to your satisfaction.

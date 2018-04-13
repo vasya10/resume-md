@@ -45,9 +45,9 @@
       "icon": "fa fa-user",
       "items": [
         "20+ years of experience in the IT industry",
-        "Networking, Content Management Systems, Web Development, eGovernment, eCommerce, Finance",
-        "Resource Manager, Agile Team Lead, UI Architect, Open Source Developer",
-        "Brocade SDN Controller, OpenDaylight, Spectrometer, Texas.gov, Driver Records"
+        "Containers, Orchestration, Networking, Content Management Systems, Web Apps, eGovernment, eCommerce, Finance",
+        "People Manager, Agile Team Lead, UI Architect, Open Source Developer",
+        "Lumina SDN Controller, OpenDaylight, Spectrometer, Texas.gov, Driver Records"
       ]
     },
     {
@@ -59,7 +59,7 @@
         "Focus on customer problems and find solutions",
         "Share what I have learnt",
         "Multi-tasking",
-        "And then there is always more to learn"
+        "And then there is always more to learn..."
       ]
     },
     {
@@ -68,19 +68,40 @@
       "icon": "fa fa-dot-circle-o",
       "items": [
         "a challenging role to apply my skills",
-        "a team with whom I can share what I have learnt",
-        "a role where I can learn from others",
+        "a role where I can contribute to customer success",
+        "a team with whom I can share what I learn and learn from",
         "an environment where work is an experience to live for"
       ]
     }
   ],
   "work": [
     {
+      "company": "Lumina Networks",
+      "position": "Swiss Army Knife",
+      "website": "http://www.luminanetworks.com",
+      "startDate": "2017-08",
+      "endDate": "",
+      "summary": "Multi-tasking DevOps/Release Engineer, OpenSource evangelist, Agile team lead and UI Architect",
+      "highlights": [
+        "completely revamped existing CI to <strong>Jenkins Pipeline</strong>",
+        "rebranded Brocade SDN Controller to LuminaNetworks SDN Controller/LSC",
+        "containerize almost of all parts of CI pipeline using Docker",
+        "dockerize and maintain Atlassian Server tools",
+        "dockerize several DevOps tools like Artifactory",
+        "automate scripts for daily backups to AWS S3",
+        "enhance documentation process and dockerize deployment to production website",
+        "create foundation for <strong>automation testing of several microservices</strong> using Kubernetes 1.9",
+        "upgraded ReactJS based UI app to NodeJS 8 and ReactJS 16",
+        "develop <strong>pytest automation tests</strong> for Python based plugins for LSC",
+        "2 successful releases of LSC and Apps in 6 months"
+      ]
+    },
+    {
       "company": "Brocade",
       "position": "Manager / Senior Staff Software Engineer",
       "website": "http://www.brocade.com",
       "startDate": "2014-06",
-      "endDate": "",
+      "endDate": "2017-08",
       "summary": "Multi-tasking Manager and Engineer, OpenSource evangelist, Agile team lead and UI Architect",
       "highlights": [
         "part of Agile team that developed the Brocade SDN Controller (BSC), based on OpenDaylight SDN",
@@ -114,7 +135,7 @@
         "successfully troubleshooted several high-priority production issues on SharePoint 2010, under extreme pressures for other states like Oregon and Pennsylvania",
         "regular participant in Austin Groovy / Grails Meetups, presented a few Grails, SpringBoot, AngularJS talks",
         "regular participant in Austin SharePoint Meetups, presented lightning talks, volunteered for SharePoint Saturday in 2014-Mar",
-        "presented a talk Battle of Programming Languages to eGovernment agencies on keeping pace with technology",
+        "presented a talk <a target='_blank' href='http://www.youtube.com'>Battle of Programming Languages</a> to eGovernment agencies on keeping pace with technology",
         "create tools for Marketing team to collect feedback statistics for Texas.gov from social networks such as Facebook, Twitter, Flickr and Google Analytics"
       ]
     },
@@ -210,7 +231,8 @@
     { "name": "Subprime Crisis", "date": "2008-07"},
     { "name": "iPhone 2G", "date": "2007-06"},
     { "name": "Google Suggest", "date": "2005-08"},
-    { "name": "OpenDaylight", "date": "2013-06"}
+    { "name": "OpenDaylight", "date": "2013-06"},
+    { "name": "LuminaNetworks", "date": "2017-08"}
   ],
   "awards": [
     {
@@ -264,19 +286,24 @@
       "keywords": [ "People Management", "Project Management", "Agile" ]
     },
     {
+      "name": "DevOps",
+      "level": "Good",
+      "keywords": [ "AWS", "Jenkins", "Atlassian", "Docker", "Kubernetes" ]
+    },
+    {
       "name": "Networking",
       "level": "Good",
-      "keywords": [ "SDN / NFV", "Yang", "OpenFlow", "OpenDaylight", "Docker" ]
+      "keywords": [ "SDN / NFV", "OpenFlow", "OpenDaylight" ]
     },
     {
       "name": "Web",
       "level": "Master",
-      "keywords": [ "ReactJS", "NodeJS", "AngularJS", "UI / UX", "SCSS", "D3 & Visualization" ]
+      "keywords": [ "ReactJS", "NodeJS", "AngularJS", "UI / UX", "D3 & Visualization" ]
     },
     {
       "name": "Server Side",
       "level": "Master",
-      "keywords": [ "Grails / Groovy", "Java / J2EE", "Spring Boot", "Micro-services" ]
+      "keywords": [ "Grails / Groovy", "Java / J2EE", "Spring Boot", "Microservices" ]
     },
     {
       "name": "App Servers",
@@ -284,9 +311,9 @@
       "keywords": [ "Karaf", "SharePoint", "Oracle WebLogic", "IBM WebSphere" ]
     },
     {
-      "name": "Deployment Pipeline",
-      "level": "Master",
-      "keywords": [ "Automation", "Nightwatch", "Robot", "Selenium" ]
+      "name": "Automation",
+      "level": "Good",
+      "keywords": [ "Pipeline", "Nightwatch", "Python", "Robot", "Selenium" ]
     },
     {
       "name": "Databases",
@@ -305,7 +332,7 @@
   "interests": [
     {
       "name": "Sanskrit",
-      "keywords": [ "Teaching", "Reading Manuscripts", "Ancient wisdom" ]
+      "keywords": [ "Teaching", "Manuscript imaging", "Ancient wisdom" ]
     },
     {
       "name": "Robotics",
@@ -328,8 +355,8 @@
     { "name": "Oracle eBusiness Suite, Oracle University", "company": "BearingPoint", "date": "2009-01", "venue": "Los Angelos", "summary": ""}
   ],
   "myweek": [
-    {"name": "coding", "percent": "30"},
-    {"name": "management", "percent": "40"},
+    {"name": "coding", "percent": "20"},
+    {"name": "devops", "percent": "50"},
     {"name": "opensource", "percent": "15"},
     {"name": "blogs", "percent": "10"},
     {"name": "sanskrit", "percent": "5"}

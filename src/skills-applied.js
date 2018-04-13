@@ -3,6 +3,10 @@ import React, { Component } from 'react';
 
 import R from '../data/resume.json'
 
+const item = x => {
+  return { __html: x }
+}
+
 class SkillsApplied extends Component {
 
   render() {
@@ -58,7 +62,7 @@ class SkillsApplied extends Component {
         <ul className="inset">
           {
             _.map(skillsApplied, x => {
-              return (<li key={x.text}><span className="award-title">{`@${x.company}: `}</span><span>{x.text}</span></li>)
+              return (<li key={x.text}><span className="award-title">{`@${x.company}: `}</span><span dangerouslySetInnerHTML={item(x.text)}></span></li>)
             })
           }
         </ul>
