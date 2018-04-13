@@ -1,4 +1,6 @@
-A ReactJS / NodeJS based Interactive Resume generator.
+# Interactive Resume Generator
+
+This is a ReactJS / NodeJS based Interactive Resume generator. For a working website, see https://vasya10-resume.herokuapp.com/
 
 This project is bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). It relies on the following technologies:
 
@@ -10,7 +12,16 @@ This project is bootstrapped with [Create React App](https://github.com/facebook
 
 ## Motivation
 
-Having interviewed over 100s of candidates during my career, I feel the resume format has hardly changed over the years. Its the typical reverse chronological items of what your role is and chosen technology stack is. Many candidates do not even pass the four minimum resume qualifications: **Clarity, Presentation, Format, Spellcheck**. Even with portals like LinkedIn, Github providing a lot of information about the candidate, a resume is still considered *the personal window* to a candidate's career. I wish I could say look up me on Twitter, Github and LinkedIn, but that's not sufficient, because the resume allows me to present myself the way I want. At the same time, static resumes are less appealing, especially for experienced professionals, because it cannot do justice to their accumulated experience. So this is just a simple attempt to make your resumes more interactive closely following industry standards.
+* Having interviewed over 100s of candidates during my career, I feel the resume presentation has hardly changed over the years. 
+* It is typically a reverse chronological items of what your role is and chosen technology stack is. 
+* Many candidates do not even pass the four minimum resume qualifications: **Clarity, Presentation, Format, Spellcheck**. 
+* Even with portals like LinkedIn, Github providing a lot of information about the candidate, a resume is still considered *the personal window* to a candidate's career. 
+* I wish I could say look up me on Twitter, Github and LinkedIn, but that's not sufficient, because the resume allows me to present myself the way I want. 
+* At the same time, static resumes are hardly appealing, especially for experienced professionals, because it cannot do justice to their accumulated experience. 
+* Most resumes offer data about roles and responsibilities, but they do not tell how **the experience was accumulated**.
+
+So this is just a simple attempt to make your resumes more interactive closely following industry standards. 
+It gives an opportunity for the hiring company or the interviewer to understand you better.
 
 
 ## Getting Started
