@@ -12,7 +12,11 @@ class SkillsApplied extends Component {
   render() {
     if (_.isEmpty(R.skills)) return null;
 
-    const skillWords = this.props.skill.split(' ').filter(x => !_.includes([',', '/', '&'], x))
+    let skillWords = this.props.skill.split(' ').filter(x => !_.includes([',', '/', '&'], x))
+    console.log("Domain: ", this.props.domain)
+    const domain = _.find(R.skills, x => x.name === this.props.domain.name)
+    const synonyms = (domain.synonyms) ? domain.synonyms[skillWords[0]] : []
+    skillWords = skillWords.concat(synonyms)
 
     const workFilter = _.reduce(R.work, (result, x) => {
       const highlights = _(skillWords).map(sw => x.highlights.filter(h0 => h0.match(new RegExp('\\s' + sw, 'gi')))).flatten().uniq().valueOf()
@@ -72,7 +76,8 @@ class SkillsApplied extends Component {
 }
 
 SkillsApplied.PropTypes = {
-  skill: React.PropTypes.string.isRequired
+  skill: React.PropTypes.string.isRequired,
+  domain: React.PropTypes.string.isRequired
 }
 
 export default SkillsApplied;

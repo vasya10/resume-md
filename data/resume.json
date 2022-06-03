@@ -9,9 +9,9 @@
     "website": "http://www.vasya10.com",
     "summary": "Multi-tasking manager and engineer",
     "location": {
-      "address": "4016 Gloucester Drive",
-      "postalCode": "TX 78613",
-      "city": "Cedar Park",
+      "address": "",
+      "postalCode": "",
+      "city": "Austin, TX",
       "countryCode": "TX",
       "region": "Texas"
     },
@@ -29,7 +29,7 @@
       {
         "network": "github",
         "username": "vasya10",
-        "url": "https://github.com/vasya10"
+        "url": "https://github.com/vasya10/resume-md"
       },
       {
         "network": "wordpress",
@@ -44,10 +44,10 @@
       "subtitle": "in a few words...",
       "icon": "fa fa-user",
       "items": [
-        "20+ years of experience in the IT industry",
-        "Containers, Orchestration, Networking, Content Management Systems, Web Apps, eGovernment, eCommerce, Finance",
-        "People Manager, Agile Team Lead, UI Architect, Open Source Developer",
-        "Lumina SDN Controller, OpenDaylight, Spectrometer, Texas.gov, Driver Records"
+        "22+ years of experience in the IT industry",
+        "DevSecOps and SRE Practices, Containers, Orchestration, CMS, eGovernment, eCommerce, Finance",
+        "Director, People Manager, Agile Team Lead, UI Architect, OpenSource Developer",
+        "Virtana Platform, OpenDaylight SDN, Texas.gov, Driver Records, IBM PartnerCommerce"
       ]
     },
     {
@@ -55,10 +55,10 @@
       "subtitle": "when I wake up everyday...",
       "icon": "fa fa-smile-o",
       "items": [
-        "Keeping pace with technology",
         "Focus on customer problems and find solutions",
-        "Share what I have learnt",
-        "Multi-tasking",
+        "Keeping pace with technology",
+        "Mentor and Motivate next-gen",
+        "Repay Knowledge-debt",
         "And then there is always more to learn..."
       ]
     },
@@ -76,11 +76,38 @@
   ],
   "work": [
     {
+      "company": "Virtana",
+      "position": "Director of DevSecOps",
+      "website": "http://www.virtana.com",
+      "startDate": "2018-06",
+      "endDate": "",
+      "summary": "Director of DevOps, Security and SRE Practices, aka Fulliautomatix",
+      "highlights": [
+        "executive-backed POC on new cloud solutions to steer the company's transformation from Enterprise to Cloud",
+        "managed a DevOps SRE team for a fully automated AWS infra using Terraform for the flagship product - Virtana SaaS Platform (VP)",
+        "admin of 10+ AWS accounts, via a ControlTower/Payee account and SSO",
+        "support Engineering for several AWS Solutions - ECS, Lambda, API Gateway, PostgreSQL, Cognito, Canary, Datelakes, SQS etc.",
+        "monitor and optimize AWS cost using Virtana's own solution - Virtana Optimize",
+        "lead the team to achieve AWS Foundation Tech Review and Migration Competency certifications",
+        "admin of Azure and Google Cloud Platform for providing support to VP features",
+        "set guidelines for SRE and on-call production support by Engineers using OpsGenie",
+        "built several Jenkins pipeline jobs to automate, standardize and make Engineers more independent",
+        "built a VueJS based aggregator tool to monitor and collect various DevOps metrics for Executives",
+        "manage expectations and report on SDLC metrics using Jellyfish for Executives",
+        "set automation standards, administered process-tools such as Github, Jira, Slack, Confluence, Sonarqube, Snyk, Blackduck, Lacework, Tenable, Paligo etc.",
+        "decision maker for purchasing and licensing tools to improve Virtana's security posture",
+        "promote Security frameworks like SLSA Level 1 and in the process of auditing for SOC2",
+        "setup on-premise K8S infra (Rancher edition) for running several DevOps automation tools for SDLC",
+        "believer in <strong>Servant Leadership</strong> - anytime 1:1s, Listen. Mentor. Guide",
+        "frequent peer leads meeting - identify problems proactively and find solutions"
+      ]
+    },
+    {
       "company": "Lumina Networks",
       "position": "Swiss Army Knife",
       "website": "http://www.luminanetworks.com",
       "startDate": "2017-08",
-      "endDate": "",
+      "endDate": "2018-06",
       "summary": "Multi-tasking DevOps/Release Engineer, OpenSource evangelist, Agile team lead and UI Architect",
       "highlights": [
         "completely revamped existing CI to <strong>Jenkins Pipeline</strong>",
@@ -109,7 +136,7 @@
         "played a semi product owner role to define initial product priorities for BSC Apps",
         "lead an Agile (Scrum) team of 6 and developed Brocade Topology Manager and Brocade Flow Manager apps for service providers",
         "designed UI using D3 to display complex network topologies, manage OpenFlow and NETCONF devices, create cost based paths, MPLS and E-Line services",
-        "developed several PoCs integrating products like StackStorm, Cloudify, Google Map (for SD-WAN) and hackathons that lead to patent filing",
+        "developed several PoCs integrating products like StackStorm, Cloudify, Google Map (for SD-WAN) and hackathons",
         "lead an Agile (Scrum) team of 5 to design yang models, develop Brocade L3 VPN Service Manager app for a very large telco service provider",
         "presided over 13 successful releases of BSC and Apps in 24 months",
         "created a new ReactJS / NodeJS based UI platform, demo-ed to the CEO and CTO, now adapted by many teams within the company",
@@ -220,21 +247,40 @@
       "studyType": "M.S.",
       "startDate": "1990-09",
       "endDate": "1995-07",
-      "gpa": "3.9",
+      "gpa": "3.9/4.0",
       "courses": []
     }
   ],
   "globalEvents": [
     { "name": "JDK", "date": "1996-01"},
-    { "name": "Google", "date": "1997-09"},
+    { "name": "Google Search", "date": "1997-09"},
     { "name": "DotCom Burst", "date": "2001-03"},
-    { "name": "Subprime Crisis", "date": "2008-07"},
+    { "name": "Human Genome", "date": "2003-04"},
+    { "name": "Skype", "date": "2003-08"},
+    { "name": "Youtube", "date": "2005-05"},
     { "name": "iPhone 2G", "date": "2007-06"},
+    { "name": "Flash Drives", "date": "2000-06" },
+    { "name": "Subprime Crisis", "date": "2008-07"},
     { "name": "Google Suggest", "date": "2005-08"},
-    { "name": "OpenDaylight", "date": "2013-06"},
-    { "name": "LuminaNetworks", "date": "2017-08"}
+    { "name": "AWS", "date": "2006-03"},
+    { "name": "5G", "date": "2017-02"},
+    { "name": "Mars Rover", "date": "2011-11"},
+    { "name": "Raspberry", "date": "2012-02"},
+    { "name": "Amazon Kindle", "date": "2007-11"}
   ],
   "awards": [
+    {
+      "title": "Executive Leadership Award",
+      "date": "2022-01",
+      "awarder": "Virtana",
+      "summary": "Creating a highly motivated team, setting and achieving goals of practical DevSecFinOps practices - On-premise and Cloud"
+    },
+    {
+      "title": "Legendary Engineer",
+      "date": "2019-01",
+      "awarder": "Virtana",
+      "summary": "Laying the stepping-stones for the company's new vision - from Enterprise to Cloud"
+    },
     {
       "title": "Status Quo Breaker",
       "date": "2016-06",
@@ -278,17 +324,28 @@
     {
       "name": "Domains",
       "level": "Good",
-      "keywords": [ "Network", "CMS", "eGovernment", "eCommerce" ]
+      "keywords": [ "DevOps", "SRE", "Security", "Network", "CMS", "eGovernment", "eCommerce" ]
     },
     {
       "name": "Management",
       "level": "Good",
-      "keywords": [ "People Management", "Project Management", "Agile" ]
+      "keywords": [ "People", "Process", "Product", "Project", "Team" ],
+      "synonyms": {
+        "People": [ "Leadership", "Leads", "Lead", "Mentor", "Mentorship", "Managed" ],
+        "Process": [ "Agile" ]
+      }
     },
     {
       "name": "DevOps",
       "level": "Good",
-      "keywords": [ "AWS", "Jenkins", "Atlassian", "Docker", "Kubernetes" ]
+      "keywords": [ "AWS", "Azure", "Jenkins", "Atlassian", "Docker", "Kubernetes" ],
+      "synonyms": {
+        "AWS": [ "Cloud", "Terraform" ],
+        "Atlassian": [ "Jira", "Confluence", "Opsgenie", "Agile" ],
+        "Docker": [ "Container", "Orchestration" ],
+        "Kubernetes": [ "Orchestration", "K8S" ],
+        "Jenkins": [ "Pipeline", "CI/CD" ]
+      }
     },
     {
       "name": "Networking",
@@ -298,27 +355,32 @@
     {
       "name": "Web",
       "level": "Master",
-      "keywords": [ "ReactJS", "NodeJS", "AngularJS", "UI / UX", "D3 & Visualization" ]
+      "keywords": [ "VueJS", "ReactJS", "NodeJS", "AngularJS", "UI / UX", "D3 & Visualization" ]
     },
     {
       "name": "Server Side",
       "level": "Master",
-      "keywords": [ "Grails / Groovy", "Java / J2EE", "Spring Boot", "Microservices" ]
+      "keywords": [ "Go", "Grails / Groovy", "Java / J2EE", "Spring Boot", "Microservices" ]
     },
     {
       "name": "App Servers",
       "level": "Master",
-      "keywords": [ "Karaf", "SharePoint", "Oracle WebLogic", "IBM WebSphere" ]
+      "keywords": [ "SharePoint", "Oracle WebLogic", "IBM WebSphere" ]
     },
     {
       "name": "Automation",
       "level": "Good",
-      "keywords": [ "Pipeline", "Nightwatch", "Python", "Robot", "Selenium" ]
+      "keywords": [ "Pipeline", "Cypress", "Terraform" ],
+      "synonyms": {
+        "Pipeline": [ "Jenkins", "CI/CD", "Python", "Ansible" ],
+        "Cypress": [ "Selenium", "QA" ],
+        "Terraform": ["Ansible"]
+      }
     },
     {
       "name": "Databases",
       "level": "Good",
-      "keywords": [ "MongoDB", "Oracle 12g" ]
+      "keywords": [ "MongoDB", "Oracle", "PostgreSQL" ]
     }
   ],
   "languages": [
@@ -332,7 +394,7 @@
   "interests": [
     {
       "name": "Sanskrit",
-      "keywords": [ "Teaching", "Manuscript imaging", "Ancient wisdom" ]
+      "keywords": [ "Teaching", "Manuscript imaging", "Ancient wisdom", "Poetry and Literature" ]
     },
     {
       "name": "Robotics",
@@ -344,6 +406,7 @@
     }
   ],
   "training": [
+    { "name": "Harvard Business School - Leadership Principles", "company": "Virtana", "date": "2021-08", "venue": "Online", "summary": "" },
     { "name": "DockerCon", "company": "Brocade", "date": "2017-04", "venue": "Austin", "summary": ""},
     { "name": "OpenStack", "company": "Brocade", "date": "2016-04", "venue": "Austin", "summary": ""},
     { "name": "Open Networking Summit", "company": "Brocade", "date": "2015-06", "venue": "San Jose", "summary": ""},
@@ -356,9 +419,9 @@
   ],
   "myweek": [
     {"name": "coding", "percent": "20"},
-    {"name": "devops", "percent": "50"},
-    {"name": "opensource", "percent": "15"},
-    {"name": "blogs", "percent": "10"},
+    {"name": "devops/sre", "percent": "40"},
+    {"name": "people", "percent": "30" },
+    {"name": "blogs", "percent": "5"},
     {"name": "sanskrit", "percent": "5"}
   ]
 }

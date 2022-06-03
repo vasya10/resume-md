@@ -135,6 +135,7 @@ ul.inset > li {
 
 .skill-acquired-item {
   flex: 0 0 auto;
+  color: white;
   margin-right: 0.5rem !important;
 }
 
@@ -196,6 +197,14 @@ ul.inset > li {
 }
 
 div.training-item:nth-child(even) {
+  color: gray;
+}
+
+.help-text {
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+  text-transform: none;
   color: gray;
 }
 

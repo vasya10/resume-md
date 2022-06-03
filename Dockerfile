@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:14.4
 LABEL version "1.0.0"
 MAINTAINER "Vasu Srinivasan"
 

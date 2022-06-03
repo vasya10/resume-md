@@ -29,7 +29,7 @@ const dataset = [...workHistory, ...eventsHistory]
 const startYear = mo(_.minBy(workHistory, "start").start).year()
 
 const options = {
-    height: '275px',
+    height: '300px',
     min: new Date(startYear, 1, 1),
     max: new Date(mo().year(), 11, 31),
     zoomMin: 1000 * 60 * 60 * 24 * 31 * 6,
@@ -70,7 +70,7 @@ class Experience extends Component {
 
     return (
       <section>
-        <h2><i className="fa fa-calendar"></i>Experience Timeline<i className="fa fa-question-circle" title="Click on the Project / Company to see the work experience details"></i></h2>
+        <h2><i className="fa fa-calendar"></i>Experience Timeline<i className="fa fa-question-circle" title="Click on the Project / Company to see the work experience details"></i><span className="help-text">Click on a company to see details</span></h2>
         <div id="experience" ref="experience"></div>
         <div className="experience-container">
           {experiences(0)}
