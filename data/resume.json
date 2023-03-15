@@ -44,7 +44,7 @@
       "subtitle": "in a few words...",
       "icon": "fa fa-user",
       "items": [
-        "22+ years of experience in the IT industry",
+        "24+ years of experience in the IT industry",
         "DevSecOps and SRE Practices, Containers, Orchestration, CMS, eGovernment, eCommerce, Finance",
         "Director, People Manager, Agile Team Lead, UI Architect, OpenSource Developer",
         "Virtana Platform, OpenDaylight SDN, Texas.gov, Driver Records, IBM PartnerCommerce"
@@ -79,8 +79,23 @@
       "company": "Virtana",
       "position": "Director of DevSecOps",
       "website": "http://www.virtana.com",
-      "startDate": "2018-06",
+      "startDate": "2022-08",
       "endDate": "",
+      "summary": "Head of DevOps, NA Region",
+      "highlights": [
+        "AI ChatOps engineering for a few high profile customers",
+        "front a DevOps/SRE presence for North American customers",
+        "ideated and created an Execute dashboard for monitoring Netomi services",
+        "Voice of Customers - a feedback analyzer using AI GPT3 and visualizer via Tableau reports",
+        "maintain service reliability for NA, Europe and Asia-Pacific regions"
+      ]
+    },
+    {
+      "company": "Virtana",
+      "position": "Director of DevSecOps",
+      "website": "http://www.virtana.com",
+      "startDate": "2018-06",
+      "endDate": "2022-07",
       "summary": "Director of DevOps, Security and SRE Practices, aka Fulliautomatix",
       "highlights": [
         "executive-backed POC on new cloud solutions to steer the company's transformation from Enterprise to Cloud",
